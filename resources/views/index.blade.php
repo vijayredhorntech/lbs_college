@@ -3,19 +3,19 @@
     <div class="swiffy-slider slider-indicators-round">
         <ul class="slider-container">
             <li>
-                <img class="lg:h-[600px] md:h-[500px] sm:h-[300px] h-[200px] w-full "
+                <img class="lg:h-[600px] md:h-[500px] sm:h-[300px] h-[200px] w-full object-cover "
                      src="https://gcharipurdhar.edu.in/assets/images/home/slider/1.jpeg">
             </li>
             <li>
-                <img class="lg:h-[600px] md:h-[500px] sm:h-[300px] h-[200px] w-full "
+                <img class="lg:h-[600px] md:h-[500px] sm:h-[300px] h-[200px] w-full object-cover "
                      src="https://gcharipurdhar.edu.in/assets/images/home/slider/2.jpeg">
             </li>
             <li>
-                <img class="lg:h-[600px] md:h-[500px] sm:h-[300px] h-[200px] w-full "
+                <img class="lg:h-[600px] md:h-[500px] sm:h-[300px] h-[200px] w-full object-cover "
                      src="https://gcharipurdhar.edu.in/assets/images/home/slider/3.jpeg">
             </li>
             <li>
-                <img class="lg:h-[600px] md:h-[500px] sm:h-[300px] h-[200px] w-full "
+                <img class="lg:h-[600px] md:h-[500px] sm:h-[300px] h-[200px] w-full object-cover "
                      src="https://gcharipurdhar.edu.in/assets/images/home/slider/4.jpeg">
             </li>
         </ul>
