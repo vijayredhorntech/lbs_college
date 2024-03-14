@@ -22,11 +22,6 @@
     <img class="h-full w-auto" src="{{asset('assets/images/logo.png')}}" alt="">
 </div>
 
-
-
-
-
-
 <div class="w-full sticky lg:top-36 md:top-32 sm:top-28 top-20 z-50 lg:h-max md:h-max sm:max-h-64 max-h-64 lg:overflow-y-visible md:overflow-y-visible sm:overflow-y-auto overflow-y-auto">
     <div class="bg-darkTheme w-full flex flex-col justify-center lg:items-center md:items-center items-start gap-2 relative px-2 ">
         <div class="w-max h-max lg:hidden md:hidden flex">
