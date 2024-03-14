@@ -454,9 +454,43 @@
                             <li class="w-[250px] py-2.5 lg:hover:bg-lightTheme  md:hover:bg-lightTheme lg:hover:text-darkTheme md:hover:text-darkTheme px-4 transition ease-in duration-2000 border-b-[1px] border-white border-dashed relative group/items justify-between">
                                 <a href="javascript:void(0)">
                                     <span>PG DEPARTMENTS</span>
+                                    <i class="fa-solid fa-caret-right ml-1 text-sm absolute right-2 top-2 lg:group-hover/items:rotate-0 md:group-hover/items:rotate-0 group-hover/items:rotate-90  transition ease-in duration-2000"
+                                       aria-hidden="true"></i>
                                 </a>
+                                <ul class="lg:absolute md:absolute static left-[250px] top-0 hidden group-hover/items:block bg-darkTheme text-lightTheme">
+
+                                    <a href="#" target="_blank">
+                                        <li class="w-[200px] py-2.5 hover:bg-lightTheme hover:text-darkTheme px-4 transition ease-in duration-2000 border-b-[1px] border-white border-dashed">
+                                            MA HISTORY
+                                        </li>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <li class="w-[200px] py-2.5 hover:bg-lightTheme hover:text-darkTheme px-4 transition ease-in duration-2000 border-b-[1px] border-white border-dashed">
+                                            MA POLITICAL SCIENCE
+                                        </li>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <li class="w-[200px] py-2.5 hover:bg-lightTheme hover:text-darkTheme px-4 transition ease-in duration-2000 border-b-[1px] border-white border-dashed">
+                                            MA ENGLISH
+                                        </li>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <li class="w-[200px] py-2.5 hover:bg-lightTheme hover:text-darkTheme px-4 transition ease-in duration-2000 border-b-[1px] border-white border-dashed">
+                                            MA HINDI
+                                        </li>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <li class="w-[200px] py-2.5 hover:bg-lightTheme hover:text-darkTheme px-4 transition ease-in duration-2000 border-b-[1px] border-white border-dashed">
+                                            M COM
+                                        </li>
+                                    </a>
+
+
+
+                                </ul>
                             </li>
                         </a>
+
                     </ul>
 
                 </li>
