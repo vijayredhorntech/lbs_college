@@ -13,7 +13,7 @@
             </div>
             <div class="w-full p-4">
                 <span class="text-darkText italic text-md">Women Grievance Redressal Cell was established under the Act No 20 of 1990 of Govt of India. Women’s grievance redressal cell is meant to safe guard and promote well being of all women employees of the organization. It takes care of all complaints on sexual harassment of women of women at workplace and action taken for redressal of complaints. The cell is responsible for looking into any complaints filed by students & staff about women grievance at college.</span>
-                <div class="w-full text-darkTheme font-bold text-xl p-2">
+                <div class="w-full text-darkTheme font-bold text-xl py-2">
                     <span>OBJECTIVES OF COMMITTEE</span>
                 </div>
                 <span class="text-darkText italic text-md">Women grievance redressal cell is a growing community of women in Lal Bahadur Shastri Government College Saraswati Nagar which share a common purpose to learn, educate and collaborate on ideas that have the power to effect meaningful and positive change while fighting the challenges they face.</span>

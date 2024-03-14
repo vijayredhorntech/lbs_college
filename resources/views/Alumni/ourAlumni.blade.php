@@ -14,7 +14,7 @@
             <div class="w-full p-4">
                 <div class="w-full grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-4">
                       <div class="w-full h-full flex flex-col justify-center items-center bg-lightTheme lg:p-8 md:p-4 sm:p-4 p-2 rounded-md shadow-lg shadow-gray-700">
-                          <img src="{{asset('assets/images/noImage.jpg')}}" class="h-24 w-24 rounded-full" alt="">
+                          <img src="{{asset('assets/images/alumni/Yash Pal Sharma.jpeg')}}" class="h-24 w-24 rounded-full" alt="">
                           <span class="mt-4 font-semibold text-md text-darkTheme text-center">Sh. Yash Pal Sharma</span>
                           <span class="italic text-sm text-danger">President</span>
                       </div>

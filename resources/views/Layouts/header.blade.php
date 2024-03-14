@@ -22,9 +22,13 @@
     <img class="h-full w-auto" src="{{asset('assets/images/logo.png')}}" alt="">
 </div>
 
-<div class="w-full sticky lg:top-36 md:top-32 sm:top-28 top-20 z-50">
-    <div
-        class="bg-darkTheme w-full flex flex-col justify-center lg:items-center md:items-center items-start gap-2 relative px-2">
+
+
+
+
+
+<div class="w-full sticky lg:top-36 md:top-32 sm:top-28 top-20 z-50 ">
+    <div class="bg-darkTheme w-full flex flex-col justify-center lg:items-center md:items-center items-start gap-2 relative px-2 ">
         <div class="w-max h-max lg:hidden md:hidden flex">
             <i id="toggleButton"
                class="fa-solid fa-bars  ml-1 text-lg text-lightTheme p-2 rounded-sm hover:bg-lightTheme hover:text-darkTheme transition ease-in duration-2000"
@@ -37,13 +41,12 @@
             }
             " aria-hidden="true"></i>
         </div>
-        <ul class="lg:flex md:flex hidden lg:flex-row md:flex-row flex-col text-lightTheme uppercase" id="menuList">
+        <ul class="  lg:flex md:flex hidden lg:flex-row md:flex-row flex-col text-lightTheme uppercase w-full items-center justify-center" id="menuList">
             <a href="{{route('home')}}">
                 <li class="py-2.5 hover:bg-lightTheme hover:text-darkTheme px-4 transition ease-in duration-2000">
                     Home
                 </li>
             </a>
-
             <a href="javascript:void(0)">
                 <li class="relative py-2.5 lg:hover:bg-lightTheme  md:hover:bg-lightTheme lg:hover:text-darkTheme md:hover:text-darkTheme px-4 transition ease-in duration-2000 group  items-center">
                     <a href="javascript:void(0)">
