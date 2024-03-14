@@ -44,8 +44,6 @@
                 </li>
             </a>
 
-
-
             <a href="javascript:void(0)">
                 <li class="relative py-2.5 lg:hover:bg-lightTheme  md:hover:bg-lightTheme lg:hover:text-darkTheme md:hover:text-darkTheme px-4 transition ease-in duration-2000 group  items-center">
                     <a href="javascript:void(0)">
@@ -124,10 +122,6 @@
 
                 </li>
             </a>
-
-
-
-
             <a href="javascript:void(0)">
                 <li class="relative py-2.5 lg:hover:bg-lightTheme  md:hover:bg-lightTheme lg:hover:text-darkTheme md:hover:text-darkTheme px-4 transition ease-in duration-2000 group  items-center">
                     <a href="javascript:void(0)">
@@ -628,7 +622,7 @@
                                 <ul class="lg:absolute md:absolute static left-[250px] top-0 hidden group-hover/items:block bg-darkTheme text-lightTheme">
                                     <a href="#">
                                         <li class="w-[200px] py-2.5 hover:bg-lightTheme hover:text-darkTheme px-4 transition ease-in duration-2000 border-b-[1px] border-white border-dashed">
-                                            SCHOLARSHIPS/FREESHIPS SCHEMES
+                                            SCHOLARSHIPS/ FREESHIPS SCHEMES
                                         </li>
                                     </a>
                                     <a href="#">
@@ -699,7 +693,7 @@
                         </a>
                         <a href="{{route('activities',['type'=>'CONFERENCES-SEMINARS-WORKSHOPS'])}}">
                             <li class="w-[250px] py-2.5 hover:bg-lightTheme hover:text-darkTheme px-4 transition ease-in duration-2000 border-b-[1px] border-white border-dashed">
-                                CONFERENCES/SEMINARS/WORKSHOPS
+                                CONFERENCES/ SEMINARS/ WORKSHOPS
                             </li>
                         </a>
                         <a href="{{route('activities',['type'=>'WOMEN-GRIEVANCE-REDRESSAL-CELL'])}}">
