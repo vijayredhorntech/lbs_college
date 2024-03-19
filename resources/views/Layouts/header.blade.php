@@ -18,13 +18,27 @@
     </div>
 </div>
 
-<div class="w-full lg:h-36 md:h-32 sm:h-28 h-20 flex  justify-center px-2 pb-2 sticky top-0 z-50" style="background-color: whitesmoke">
+<div class="w-full lg:h-36 md:h-32 sm:h-28 h-20 flex  justify-evenly px-2 pb-2 sticky top-0 z-50" style="background-color: whitesmoke">
     <img class="h-full w-auto" src="{{asset('assets/images/logo.png')}}" alt="">
+
+
+    <div class="lg:flex hidden items-center gap-4 w-max">
+        <div class="flex flex-col ">
+            <span class="text-danger text-md font-normal"><i class="fa fa-phone"></i> Phone:-</span>
+            <a href="tel:01781-238149" class="font-semibold text-lg text-darkTheme underline">01781-238149</a>
+        </div>
+            <div class="flex flex-col ">
+                   <span class="text-danger text-md font-normal"><i class="fa fa-envelope"></i> Email:-</span>
+                   <a href="mailto:gcsnagar25@rediffmail.com" class="font-semibold text-lg text-darkTheme underline">gcsnagar25@rediffmail.com</a>
+            </div>
+
+
+    </div>
 </div>
 
 <div class="w-full sticky lg:top-36 md:top-32 sm:top-28 top-20 z-50 lg:h-max md:h-max sm:max-h-64 max-h-64 lg:overflow-y-visible md:overflow-y-visible sm:overflow-y-auto overflow-y-auto">
-    <div class="bg-darkTheme w-full flex flex-col justify-center lg:items-center md:items-center items-start gap-2 relative px-2 ">
-        <div class="w-max h-max lg:hidden md:hidden flex">
+    <div class="bg-darkTheme w-full flex flex-col justify-center lg:items-center  items-start gap-2 relative px-2 ">
+        <div class="w-max h-max lg:hidden flex">
             <i id="toggleButton"
                class="fa-solid fa-bars  ml-1 text-lg text-lightTheme p-2 rounded-sm hover:bg-lightTheme hover:text-darkTheme transition ease-in duration-2000"
                onclick="
@@ -36,7 +50,7 @@
             }
             " aria-hidden="true"></i>
         </div>
-        <ul class="  lg:flex md:flex hidden lg:flex-row md:flex-row flex-col text-lightTheme uppercase w-full items-center justify-center" id="menuList">
+        <ul class="  lg:flex hidden lg:flex-row flex-col text-lightTheme uppercase w-full items-center justify-center" id="menuList">
             <a href="{{route('home')}}">
                 <li class="py-2.5 hover:bg-lightTheme hover:text-darkTheme px-4 transition ease-in duration-2000">
                     Home
