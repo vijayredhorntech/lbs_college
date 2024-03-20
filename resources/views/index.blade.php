@@ -489,51 +489,6 @@ The future is in the hands of present. It is said that destiny of a nation is sh
                                 </a>
                             </ul>
                         </div>
-                        {{--                <div class="swiffy-slider slider-indicators-round slider-nav-autoplay">--}}
-                        {{--                    <ul class="slider-container">--}}
-                        {{--                        <li>--}}
-                        {{--                            <div class="w-full h-96 bg-lightTheme mt-4 p-3 rounded-md relative">--}}
-                        {{--                                <a href="{{route('gallery', ['type'=>'PHOTOS'])}}">--}}
-                        {{--                                    <img src="{{asset('assets/images/gallery/3.jpg')}}" class="w-full h-full object-cover rounded-md"--}}
-                        {{--                                         alt="">--}}
-                        {{--                                </a>--}}
-                        {{--                            </div>--}}
-                        {{--                        </li>--}}
-                        {{--                        <li>--}}
-                        {{--                            <div class="w-full h-96 bg-lightTheme mt-4 p-3 rounded-md relative">--}}
-                        {{--                                <a href="{{route('gallery', ['type'=>'PHOTOS'])}}">--}}
-                        {{--                                    <img src="{{asset('assets/images/gallery/1.jpg')}}" class="w-full h-full object-cover rounded-md"--}}
-                        {{--                                         alt="">--}}
-                        {{--                                </a>--}}
-                        {{--                            </div>--}}
-                        {{--                        </li>--}}
-                        {{--                        <li>--}}
-                        {{--                            <div class="w-full h-96 bg-lightTheme mt-4 p-3 rounded-md relative">--}}
-                        {{--                                <a href="{{route('gallery', ['type'=>'PHOTOS'])}}">--}}
-                        {{--                                    <img src="{{asset('assets/images/gallery/2.jpg')}}" class="w-full h-full object-cover rounded-md"--}}
-                        {{--                                         alt="">--}}
-                        {{--                                </a>--}}
-                        {{--                            </div>--}}
-                        {{--                        </li>--}}
-                        {{--                        <li>--}}
-                        {{--                            <div class="w-full h-96 bg-lightTheme mt-4 p-3 rounded-md relative">--}}
-                        {{--                                <a href="{{route('gallery', ['type'=>'PHOTOS'])}}">--}}
-                        {{--                                    <img src="{{asset('assets/images/gallery/4.jpg')}}" class="w-full h-full object-cover rounded-md"--}}
-                        {{--                                         alt="">--}}
-                        {{--                                </a>--}}
-                        {{--                            </div>--}}
-                        {{--                        </li>--}}
-                        {{--                        <li>--}}
-                        {{--                            <div class="w-full h-96 bg-lightTheme mt-4 p-3 rounded-md relative">--}}
-                        {{--                                <a href="{{route('gallery', ['type'=>'PHOTOS'])}}">--}}
-                        {{--                                    <img src="{{asset('assets/images/gallery/5.jpg')}}" class="w-full h-full object-cover rounded-md"--}}
-                        {{--                                         alt="">--}}
-                        {{--                                </a>--}}
-                        {{--                            </div>--}}
-                        {{--                        </li>--}}
-                        {{--                    </ul>--}}
-
-                        {{--                </div>--}}
 
 
                     </div>
@@ -785,5 +740,86 @@ The future is in the hands of present. It is said that destiny of a nation is sh
            </div>
        </div>
     </div>
+
+
+    <div class="swiffy-slider slider-indicators-round slider-nav-autoplay slider-item-show6 mb-[15px]">
+                        <ul class="slider-container">
+                            <li>
+                                <div class="w-full h-48 bg-lightTheme mt-4 p-3 rounded-md relative">
+                                    <a href="{{route('gallery', ['type'=>'PHOTOS'])}}">
+                                        <img src="{{asset('assets/images/gallery/3.jpg')}}" class="w-full h-full object-cover rounded-md"
+                                             alt="">
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="w-full h-48 bg-lightTheme mt-4 p-3 rounded-md relative">
+                                    <a href="{{route('gallery', ['type'=>'PHOTOS'])}}">
+                                        <img src="{{asset('assets/images/gallery/1.jpg')}}" class="w-full h-full object-cover rounded-md"
+                                             alt="">
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="w-full h-48 bg-lightTheme mt-4 p-3 rounded-md relative">
+                                    <a href="{{route('gallery', ['type'=>'PHOTOS'])}}">
+                                        <img src="{{asset('assets/images/gallery/2.jpg')}}" class="w-full h-full object-cover rounded-md"
+                                             alt="">
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="w-full h-48 bg-lightTheme mt-4 p-3 rounded-md relative">
+                                    <a href="{{route('gallery', ['type'=>'PHOTOS'])}}">
+                                        <img src="{{asset('assets/images/gallery/4.jpg')}}" class="w-full h-full object-cover rounded-md"
+                                             alt="">
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="w-full h-48 bg-lightTheme mt-4 p-3 rounded-md relative">
+                                    <a href="{{route('gallery', ['type'=>'PHOTOS'])}}">
+                                        <img src="{{asset('assets/images/gallery/5.jpg')}}" class="w-full h-full object-cover rounded-md"
+                                             alt="">
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="w-full h-48 bg-lightTheme mt-4 p-3 rounded-md relative">
+                                    <a href="{{route('gallery', ['type'=>'PHOTOS'])}}">
+                                        <img src="{{asset('assets/images/gallery/6.jpg')}}" class="w-full h-full object-cover rounded-md"
+                                             alt="">
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="w-full h-48 bg-lightTheme mt-4 p-3 rounded-md relative">
+                                    <a href="{{route('gallery', ['type'=>'PHOTOS'])}}">
+                                        <img src="{{asset('assets/images/gallery/7.jpeg')}}" class="w-full h-full object-cover rounded-md"
+                                             alt="">
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="w-full h-48 bg-lightTheme mt-4 p-3 rounded-md relative">
+                                    <a href="{{route('gallery', ['type'=>'PHOTOS'])}}">
+                                        <img src="{{asset('assets/images/gallery/8.jpeg')}}" class="w-full h-full object-cover rounded-md"
+                                             alt="">
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="w-full h-48 bg-lightTheme mt-4 p-3 rounded-md relative">
+                                    <a href="{{route('gallery', ['type'=>'PHOTOS'])}}">
+                                        <img src="{{asset('assets/images/gallery/9.jpg')}}" class="w-full h-full object-cover rounded-md"
+                                             alt="">
+                                    </a>
+                                </div>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
 
 @endsection
