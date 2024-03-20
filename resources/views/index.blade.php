@@ -1,22 +1,23 @@
 @extends('Layouts.layout')
 @section('content')
+
     <div class="swiffy-slider slider-indicators-round">
         <ul class="slider-container">
             <li>
                 <img class="lg:h-[600px] md:h-[500px] sm:h-[300px] h-[200px] w-full object-cover "
-                     src="https://gcharipurdhar.edu.in/assets/images/home/slider/1.jpeg">
+                     src="{{asset('assets/images/administration/campus.jpg')}}">
             </li>
             <li>
                 <img class="lg:h-[600px] md:h-[500px] sm:h-[300px] h-[200px] w-full object-cover "
-                     src="https://gcharipurdhar.edu.in/assets/images/home/slider/2.jpeg">
+                     src="{{asset('assets/images/gallery/30.jpg')}}">
             </li>
             <li>
                 <img class="lg:h-[600px] md:h-[500px] sm:h-[300px] h-[200px] w-full object-cover "
-                     src="https://gcharipurdhar.edu.in/assets/images/home/slider/3.jpeg">
+                     src="{{asset('assets/images/gallery/6.jpg')}}">
             </li>
             <li>
                 <img class="lg:h-[600px] md:h-[500px] sm:h-[300px] h-[200px] w-full object-cover "
-                     src="https://gcharipurdhar.edu.in/assets/images/home/slider/4.jpeg">
+                     src="{{asset('assets/images/gallery/42.jpg')}}">
             </li>
         </ul>
 
