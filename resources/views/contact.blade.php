@@ -1,4 +1,5 @@
 @extends('Layouts.layout')
+@section('title', 'Contact Us - ')
 @section('content')
     <img class=" h-[200px] w-full object-cover " src="{{asset('assets/images/gallery/42.jpg')}}">
 
@@ -11,38 +12,7 @@
             </div>
             <div class="w-full grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-4 p-4">
                 <div class="w-full  rounded-lg  py-2 px-2 shadow-lg shadow-gray-300" style="background-color: whitesmoke">
-
-                    <form class="">
-                        <div class="mb-4">
-                            <label class="block mb-2 text-sm font-semibold" for="username">
-                                Full Name
-                            </label>
-                            <input type="text" id="name" class="w-full p-3 text-sm border border-[1px] border-darkTheme text-darkText placeholder-darkTheme rounded shadow focus:outline-none focus:shadow-outline" placeholder="Enter Your Name" />
-                        </div>
-                        <div class="mb-4">
-                            <label class="block mb-2 text-sm font-semibold" for="username">
-                                Email
-                            </label>
-                            <input type="email" id="email" class="w-full p-3 text-sm border border-[1px] border-darkTheme text-darkText placeholder-darkTheme rounded shadow focus:outline-none focus:shadow-outline" placeholder="Enter Your Email" />
-                        </div>
-                        <div class="mb-4">
-                            <label class="block mb-2 text-sm font-semibold" for="username">
-                                Mobile Number
-                            </label>
-                            <input type="number" id="number" class="w-full p-3 text-sm border border-[1px] border-darkTheme text-darkText placeholder-darkTheme rounded shadow focus:outline-none focus:shadow-outline" placeholder="Enter Your number" />
-                        </div>
-                        <div class="mb-4">
-                            <label class="block mb-2 text-sm font-semibold" for="username">
-                                Message
-                            </label>
-                            <textarea id="message" class="w-full p-3 text-sm border border-[1px] border-darkTheme text-darkText placeholder-darkTheme rounded shadow focus:outline-none focus:shadow-outline" placeholder="Enter Your Message"></textarea>
-                        </div>
-                        <div class="mb-4">
-                            <button class="w-full p-3 font-bold text-white bg-darkTheme rounded-full focus:outline-none" type="button">
-                                Submit
-                            </button>
-                        </div>
-                    </form>
+                    <livewire:contact-form/>
                 </div>
 
                 <div class="w-full ">
