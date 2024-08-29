@@ -7,6 +7,7 @@
     <script src="https://kit.fontawesome.com/4e2c7ef5ef.js" crossorigin="anonymous"></script>
     <title>@yield('title') LBS Government College</title>
     <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+
     @vite('resources/css/app.css')
     @livewireStyles
 </head>

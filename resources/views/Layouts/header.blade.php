@@ -48,7 +48,7 @@
             }else{
                 menuList.classList.add('hidden');
             }
-            " aria-hidden="true"></i>
+            " aria-hidden="true">=</i>
         </div>
         <ul class="  lg:flex hidden lg:flex-row flex-col text-lightTheme uppercase w-full items-center justify-center" id="menuList">
             <a href="{{route('home')}}">
@@ -720,40 +720,9 @@
 
                 </li>
             </a>
-            <a href="javascript:void(0)">
-                <li class="relative py-2.5 lg:hover:bg-lightTheme  md:hover:bg-lightTheme lg:hover:text-darkTheme md:hover:text-darkTheme px-4 transition ease-in duration-2000 group  items-center">
-                    <a href="javascript:void(0)">
-                        Reports
-                        <i class="fa-solid fa-caret-right ml-1 text-sm group-hover:rotate-90 transition ease-in duration-2000"
-                           aria-hidden="true"></i>
-                    </a>
-                    <ul class="lg:absolute md:absolute static left-0 top-10 z-20 hidden group-hover:block bg-darkTheme text-lightTheme">
-
-                        <a href="{{route('annual-report',['type'=>'COLLEGE-ANNUAL-REPORTS'])}}">
-                            <li class="w-[250px] py-2.5 hover:bg-lightTheme hover:text-darkTheme px-4 transition ease-in duration-2000 border-b-[1px] border-white border-dashed">
-                                COLLEGE ANNUAL REPORTS
-                            </li>
-                        </a>
-                        <a href="{{route('annual-report',['type'=>'STUDENTS-SATISFACTION-SURVEY'])}}">
-                            <li class="w-[250px] py-2.5 hover:bg-lightTheme hover:text-darkTheme px-4 transition ease-in duration-2000 border-b-[1px] border-white border-dashed">
-                                STUDENTS SATISFACTION SURVEY
-                            </li>
-                        </a>
-                        <a href="{{route('annual-report',['type'=>'STUDENTS-FEEDBACK-SURVEY'])}}">
-                            <li class="w-[250px] py-2.5 hover:bg-lightTheme hover:text-darkTheme px-4 transition ease-in duration-2000 border-b-[1px] border-white border-dashed">
-                                STUDENTS FEEDBACK SURVEY
-                            </li>
-                        </a>
-                        <a href="{{route('annual-report',['type'=>'TEACHERS-FEEDBACK-SURVEY'])}}">
-                            <li class="w-[250px] py-2.5 hover:bg-lightTheme hover:text-darkTheme px-4 transition ease-in duration-2000 border-b-[1px] border-white border-dashed">
-                                TEACHERS FEEDBACK SURVEY
-                            </li>
-                        </a>
-
-
-
-                    </ul>
-
+            <a href="{{route('annual-report',['type'=>'COLLEGE-ANNUAL-REPORTS'])}}">
+                <li class="py-2.5 hover:bg-lightTheme hover:text-darkTheme px-4 transition ease-in duration-2000">
+                    Reports
                 </li>
             </a>
             <a href="javascript:void(0)">

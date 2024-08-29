@@ -113,6 +113,7 @@ class PageController extends Controller
                 ['Students Feedback_2020_21_Report', 'Yearly Status Report - 2020-21',  asset('assets/pdf/annualReport/Students feedback 2020-21.pdf'),],
                 ['Students Feedback_2021_22_Report', 'Yearly Status Report - 2021-22',  asset('assets/pdf/annualReport/Student Feedback 21-22.pdf'),],
                 ['Students Feedback_2022_23_Report', 'Yearly Status Report - 2022-23',  asset('assets/pdf/annualReport/Students Feedback 22-23.pdf'),],
+                ['Students Feedback_2023_24_Report', 'Yearly Status Report - 2023-24',  asset('assets/pdf/annualReport/STUDENTS FEEDBACK 23-24.pdf'),],
 
 
             ];
@@ -125,12 +126,13 @@ class PageController extends Controller
                 ['	Teachers Feedback_2020_21_Survey Report', 'Yearly Status Report - 2020-21',  asset('assets/pdf/annualReport/Teachers Feedback 2020-21.pdf'),],
                 ['	Teachers Feedback_2021_22_Survey Report', 'Yearly Status Report - 2021-22',  asset('assets/pdf/annualReport/Teacher Feedback 21-22.pdf'),],
                 ['	Teachers Feedback_2022_23_Survey Report', 'Yearly Status Report - 2022-23',  asset('assets/pdf/annualReport/Teachers Feedback 22-23.pdf'),],
+                ['	Teachers Feedback_2023_24_Survey Report', 'Yearly Status Report - 2023-24',  asset('assets/pdf/annualReport/TEACHERS FEEDBACK 23-24.pdf'),],
 
 
             ];
         }
 
-        return view('reports', compact('title', 'tableHeader', 'tableData'));
+        return view('reports', compact('title', 'tableHeader', 'tableData'))->with('type', $type);
     }
 
     public function activities( $type)
@@ -211,6 +213,8 @@ class PageController extends Controller
             $title = 'CONFERENCES REPORTS';
             $tableHeader = ['Conferences Report', 'Year'];
             $tableData = [
+                ['  IQAC FDP Report 23-24', '',  asset('assets/pdf/activities/IQAC-FDP REPORT23-24.pdf'),],
+                ['  Anti Drugs Report 23-24', '',  asset('assets/pdf/activities/ANTI-DRUGS REPORT23-24.pdf'),],
                 ['	IQAC Webinar', '',  asset('assets/pdf/activities/IQAC webinar.pdf'),],
                 ['	International Conference', '',  asset('assets/pdf/activities/International Conference.pdf'),],
                 ['	COVID webinar', '',  asset('assets/pdf/activities/COVID webinar.pdf'),],
@@ -219,6 +223,7 @@ class PageController extends Controller
                 ['	CAREER COUNSELLING WEBINAR Report', '',  asset('assets/pdf/activities/CAREER COUNSELLING WEBINAR MAY 22 REPORT.pdf'),],
                 ['  Chemistry Two Days Workshop Report', '',  asset('assets/pdf/activities/REPORT EXPERIENTIAL CHEMISTRY WORKSHOP 22-23.pdf'),],
                 ['	Science One Day Workshop Report', '', '#',],
+
             ];
         }
         if ($type === 'WOMEN-GRIEVANCE-REDRESSAL-CELL') {
