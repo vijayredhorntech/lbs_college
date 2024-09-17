@@ -8,10 +8,14 @@
     <title>@yield('title') LBS Government College</title>
     <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
 
+{{--    google fonts link--}}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     @vite('resources/css/app.css')
     @livewireStyles
 </head>
-<body style="background-color: whitesmoke">
+<body style="background-color: whitesmoke;font-family: 'Open Sans', system-ui;">
     @include('Layouts.header')
         @yield('content')
     @include('Layouts.footer')

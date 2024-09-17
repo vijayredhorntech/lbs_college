@@ -53,7 +53,7 @@
                                                 </td>
                                                 <td class="px-4 py-1 text-sm whitespace-nowrap border-[1px] border-darkTheme">
                                                     <div class="flex items-center gap-x-6">
-                                                        <a href="{{ $data[2] }}" target="_blank" class="text-danger font-semibold underline transition-colors duration-200 hover:text-darkTheme focus:outline-none">
+                                                        <a href="{{ route('pdfViewer',['folder'=>$folderName,'file'=>$data[2]]) }}" target="_blank" class="text-danger font-semibold underline transition-colors duration-200 hover:text-darkTheme focus:outline-none">
                                                             View/Download
                                                         </a>
                                                     </div>

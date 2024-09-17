@@ -1,8 +1,5 @@
     <div class="w-full flex flex-col items-center p-4 relative">
-        <div class="lg:w-[70%] md:w-[80%] w-full bg-white shadow-lg shadow-gray-300 rounded-md z-20">
-            <div class="w-full bg-darkTheme text-white font-bold text-xl p-2">
-                <span>OSA Registration Form</span>
-            </div>
+        <div class=" w-full bg-white shadow-lg shadow-gray-300 rounded-md z-20">
             <div class="w-full rounded-lg py-2 px-2 shadow-lg shadow-gray-300" style="background-color: whitesmoke">
                 @if (session()->has('success'))
                     <div class="mb-4 text-green-600">

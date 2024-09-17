@@ -16,7 +16,7 @@ export default {
 
             danger: '#e01212',
             success: '#08b208',
-            warning: '#e0a012',
+            warning: '#c56a00',
             white: '#ffffff',
             black: '#000000',
         },
